@@ -6,7 +6,7 @@ Angular 2 app is here: https://github.com/KenWilliamson/CloudMobileCordova.git
 
 #### This mobile application works completely in the client mode and requires not Cordova files to be deployed to the server and requires no changes to the server.
 
-
+This is currently only configured for Android, but should work with any platform with which ManifoldCordova works.
 
 **Just modify the manifest and you're off and running** 
 <pre>
