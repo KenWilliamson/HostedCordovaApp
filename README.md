@@ -7,3 +7,30 @@ Angular 2 app is here: https://github.com/KenWilliamson/CloudMobileCordova.git
 #### This mobile application works completely in the client mode and requires not Cordova files to be deployed to the server and requires no changes to the server.
 
 
+
+**Just modify the manifest and you're off and running** 
+<pre>
+{
+    "lang": "en",
+    "name": "YourHostedCordovaApp",
+    "short_name": "YourHostedCordovaApp",
+    "scope":"http://*.www.yourAngularApp",
+    "start_url": "http://www.yourAngularApp/",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "theme_color": "aliceblue",
+    "mjs_cordova": {
+        "plugin_mode": "client"
+    },
+    "mjs_import_scripts": [
+        {
+            "src": "js/alerts.js"
+        }
+    ],
+    "mjs_api_access": [
+        {
+            "match": "*"
+        }
+    ]
+}
+</pre>
