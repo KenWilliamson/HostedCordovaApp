@@ -1,0 +1,23 @@
+{
+    "lang": "en",
+    "name": "HostedCordovaApp",
+    "short_name": "HostedCordovaApp",
+    "scope":"http://*.10.0.2.2:3000",
+    "start_url": "http://10.0.2.2:3000/",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "theme_color": "aliceblue",
+    "mjs_cordova": {
+        "plugin_mode": "client"
+    },
+    "mjs_import_scripts": [
+        {
+            "src": "js/alerts.js"
+        }
+    ],
+    "mjs_api_access": [
+        {
+            "match": "*"
+        }
+    ]
+}
