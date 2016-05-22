@@ -15,15 +15,13 @@ No Cordova files are needed on the Cloud server where the Angular 2 application 
 There are two modes of operation for ManifoldCordova:
  
 - Server Mode
-
--- In Server Mode, all the Cordova JS files must be deployed to the Cloud server; they are then downloaded by the 
-mobile application.
+ `In Server Mode, all the Cordova JS files must be deployed to the Cloud server; they are then downloaded by the 
+mobile application.`
 
 - Client Mode (What this application uses)
-
--- In Client mode, the Cordova JS files are loaded from the device and injected into the web application pages based on
+ `In Client mode, the Cordova JS files are loaded from the device and injected into the web application pages based on
 the settings in the manifest.json file in the root of the project.
-Client Mode is what we use in this application.
+Client Mode is what we use in this application.`
     
 
 ## The ManifoldCordova plugin 
